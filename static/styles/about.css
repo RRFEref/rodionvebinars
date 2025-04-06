@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(44, 32, 94) 0%, rgba(27,10,58,1) 44%);
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  margin-right: 20px;
+  font-weight: 900;
+}
+
+ul.head {
+  color: aliceblue;
+  display: flexbox;
+  margin-left: auto;
+  font-size: 30px;
+  padding: 5px;
+}
+
+li {
+  transition: background 0.3s;
+  padding: 20px;
+}
+
+li:hover {
+  background: rgba(255, 255, 255, 0.1); 
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 700;
+  border: #333;
+  border-radius: 10px;
+  border-style: dashed;
+  margin: 30px;
+  padding: 20px;
+}
+
+video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 1300px;
+  background-color: #2c3e50;
+  padding: 05px;
+  margin-top: 50px;
+}
+
+.team {
+  margin: 5px;
+  text-align: justify;
+  border: #333;
+}
+
+h4 {
+  font-size: 40px;
+  position: static;
+}
+
+ul.team {
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px
+}
+
+li.team {
+  display: flex;
+  align-items: flex-start;
+  margin: 40px
+}
+
+div.team.text {
+  width: 40%;
+  border: #333;
+  border-radius: 10px;
+  border-style: dashed;
+  padding: 20px;
+}
+
+img.team {
+  width: 30%;
+  margin-left: 100px;
+  float: right;
+  padding: 20px;
+  border: #333;
+  border-radius: 10px;
+  border-style: dashed;
+}
+
+h3 {
+  font-size: 55px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.footer {
+  font-size: 25px;
+  display: flex;
+  max-width: 100%;
+  background-color: #2c3e50;
+  color: aliceblue;
+  padding:  10px;
+}
+
+ul.footer {
+  width: 50%;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  margin-left: auto;
+}
+
+li.footer {
+  padding-left: 40px;
+}
+
+span.footer {
+  padding-top: 10px;
+  width: 40%;
+  padding: 20px;
+}
+

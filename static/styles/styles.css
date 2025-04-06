@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(44, 32, 94) 0%, rgba(27,10,58,1) 44%);
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  margin-right: 20px;
+}
+
+ul.head {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+
+li.dock {
+  color: white;
+  padding: 10px 15px; 
+  transition: background 0.3s; 
+  font-size: 30px;
+  margin: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+li:hover {
+  background: rgba(255, 255, 255, 0.1); 
+  cursor: pointer;
+}
+
+.image-gallery {
+  display: flex; 
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  justify-content: center
+}
+
+.image-item {
+  margin-right: 20px; 
+  text-align: center;
+  margin: 50px;
+}
+
+.image-item img {
+  max-width: 400px; 
+  height: 250px; 
+  border-radius: 5px; 
+}
+
+.image-text {
+  margin-top: 20px; 
+  color: #333; 
+  font-size: 47px;
+  font-weight: 500;
+}
+
+p {
+  text-align: center;
+  font-size: 40px;
+  color: #2c3e50;
+  margin: 30px 0;
+  font-weight: 400;
+  text-transform: uppercase; 
+  margin-top: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.highlight {
+  font-weight: bold;
+  color: #0f243b;
+}
+
+h3 {
+  text-align: center;
+  color: #333;
+  padding: px;
+  padding-top: 40px;
+  font-size: 60px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+li.table {
+  margin: 20px 0;
+  padding: 30px;
+  border-radius: 5px;
+  font-size: 55px;
+  font-style: Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-align: center;
+  border: #333;
+  border-radius: 10px;
+  border-style: dashed;
+  margin-bottom: 100px;
+  margin-left: 60px;
+  margin-bottom: 60px;
+
+}
+
+img.tab {
+  float: right;
+  width:45%;
+  margin: 80px;
+}
+
+.footer {
+  font-size: 25px;
+  display: flex;
+  max-width: 100%;
+  background-color: #2c3e50;
+  color: aliceblue;
+  padding:  10px;
+}
+
+ul.footer {
+  width: 50%;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  margin-left: auto;
+}
+
+li.footer {
+  padding-left: 40px;
+}
+
+span.footer {
+  padding-top: 10px;
+  width: 40%;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
