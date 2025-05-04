@@ -94,28 +94,37 @@ h3 {
   width: 100%;
 }
 
-li.table {
-  margin: 20px 0;
-  padding: 30px;
-  border-radius: 5px;
-  font-size: 55px;
-  font-style: Arial, sans-serif;
-  font-weight: 400;
-  letter-spacing: 5px;
-  text-align: center;
-  border: #333;
-  border-radius: 10px;
-  border-style: dashed;
-  margin-bottom: 100px;
-  margin-left: 60px;
-  margin-bottom: 60px;
+.table {
+  list-style-type: none;
+  margin: 20px 0; /* Внешние отступы по вертикали */
+  padding: 20px; /* Убираем внутренние отступы */
+  border: 2px solid #ccc; /* Сплошная рамка */
+  border-radius: 10px; /* Закругленные углы */
+  background-color: #f5f5f5; /* Фоновый цвет */
+  display: flex; /* Гибкая компоновка */
+  flex-direction: column; /* Вертикальная компоновка */
+  align-items: flex-start; /* Выравнивание по левому краю */
+  box-sizing: border-box; /* Учитываем отступы и рамки */
+}
 
+/* Стили для текста */
+.highlight {
+  font-weight: bold; /* Жирный текст */
+  font-size: 3.5em; /* Увеличенный размер шрифта */
+  margin: 20px; /* Внешние отступы */
+}
+
+.tab {
+  margin: 0 20px 20px;
 }
 
 img.tab {
-  float: right;
-  width:45%;
-  margin: 80px;
+  width: 40%; 
+  height: auto; /* Автоматическая высота */
+  margin: 10px 20px 20px; /* Внешние отступы */
+  border-radius: 10px; 
+  position: relative;
+  padding-left: 500px;
 }
 
 .footer {
@@ -124,25 +133,40 @@ img.tab {
   max-width: 100%;
   background-color: #2c3e50;
   color: aliceblue;
-  padding:  10px;
+  padding: 10px;
+  align-items: center;
+  
 }
 
-ul.footer {
-  width: 50%;
+.footer ul {
+  width: 100%;
   font-family: Arial, sans-serif;
-  margin: 20px;
-  margin-left: auto;
+  margin: 20px 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-li.footer {
+.footer li {
   padding-left: 40px;
 }
 
-span.footer {
+.footer span {
   padding-top: 10px;
-  width: 40%;
-  margin: 10px;
+  width: 100%; 
+  margin: 10px 0;
 }
+
+.footer {
+    justify-content: space-between;
+  }
+
+.footer ul {
+    width: 50%;
+  }
+
+.footer span {
+    width: auto; 
+  }
 
 a {
   text-decoration: none;
