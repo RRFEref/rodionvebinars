@@ -1,13 +1,14 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  max-width: 100%;
 }
 
 header {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(44, 32, 94) 0%, rgba(27,10,58,1) 44%);
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  width: 100%;
 }
 
 h1 {
@@ -67,65 +68,87 @@ li:hover {
 
 p {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   color: #2c3e50;
-  margin: 30px 0;
+  margin: 10px 0;
   font-weight: 400;
   text-transform: uppercase; 
   margin-top: 40px;
 }
 
-ul {
+ul.table {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  max-width: 100%;
 }
-.highlight {
-  font-weight: bold;
-  color: #0f243b;
+
+
+li.table {
+  width: 40%;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
 }
 
 h3 {
   text-align: center;
   color: #333;
   padding: px;
-  padding-top: 40px;
-  font-size: 60px;
+  padding-top: 60px;
+  font-size: 40px;
   padding-bottom: 20px;
   width: 100%;
 }
 
 .table {
   list-style-type: none;
-  margin: 20px 0; /* Внешние отступы по вертикали */
-  padding: 20px; /* Убираем внутренние отступы */
-  border: 2px solid #ccc; /* Сплошная рамка */
-  border-radius: 10px; /* Закругленные углы */
-  background-color: #f5f5f5; /* Фоновый цвет */
-  display: flex; /* Гибкая компоновка */
-  flex-direction: column; /* Вертикальная компоновка */
-  align-items: flex-start; /* Выравнивание по левому краю */
-  box-sizing: border-box; /* Учитываем отступы и рамки */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
 }
 
-/* Стили для текста */
+ul.table {
+  padding: 20px;
+  margin: 20px;
+}
+
 .highlight {
-  font-weight: bold; /* Жирный текст */
-  font-size: 3.5em; /* Увеличенный размер шрифта */
-  margin: 20px; /* Внешние отступы */
+  font-weight: bold;
+  font-size: 2em;
+  margin: 20px;
+  color: #0f243b;
 }
 
 .tab {
-  margin: 0 20px 20px;
+  padding: 20px;
 }
 
 img.tab {
-  width: 40%; 
-  height: auto; /* Автоматическая высота */
-  margin: 10px 20px 20px; /* Внешние отступы */
-  border-radius: 10px; 
-  position: relative;
-  padding-left: 500px;
+  width: 70%; 
+  height: auto;
+  margin: 10px 70px 20px;
+  border-radius: 10px;
 }
+
+.table-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.table-group {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  
+.table-item {
+   width: 48%;
+   margin-bottom: 20px;
+  }
 
 .footer {
   font-size: 25px;
