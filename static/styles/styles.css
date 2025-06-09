@@ -7,6 +7,7 @@ body {
 header {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(44, 32, 94) 0%, rgba(27,10,58,1) 44%);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   width: 100%;
 }
@@ -20,6 +21,7 @@ h1 {
 ul.head {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   margin-left: auto;
 }
 
@@ -40,6 +42,7 @@ li:hover {
 
 .image-gallery {
   display: flex; 
+  flex-wrap: wrap;
   padding: 10px;
   background-color: white;
   border-radius: 5px;
@@ -80,6 +83,7 @@ ul.table {
   list-style-type: none;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   max-width: 100%;
 }
 
@@ -107,6 +111,7 @@ h3 {
   border-radius: 10px;
   background-color: #f5f5f5;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   padding: 0px;
 }
@@ -136,6 +141,7 @@ img.tab {
 
 .table-group {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   margin-bottom: 20px;
 }
